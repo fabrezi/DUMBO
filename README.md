@@ -27,11 +27,13 @@ front: the UI display. the user can send in the request
 
 The following are the open task:
 
-[1] Create a GET HTTP method which sends back a funny response.
+[x] Hello World in Spring framework.
 
-[2] Send a message and save it in the database.
+[] Create a GET HTTP method which sends back a funny response.
 
-[3] Generate UUID.
+[] Send a message and save it in the database.
+
+[] Generate UUID.
 
 
 ------------------------------
