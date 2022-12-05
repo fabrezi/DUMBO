@@ -17,4 +17,15 @@ More then anything DUMBO is a test app, ready to take a request and perform an e
 
 # Setup
 
-# Links
+- Configure the Spring framework.
+
+
+## Contents
+
+ [] setup the database connection and managment. Able to load, download and create text data.
+ [] route handling
+ [] 
+
+## Links
+
+
