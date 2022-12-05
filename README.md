@@ -50,7 +50,12 @@ fully operational CRUD functionality in Spring framework. This will require:
 
 # Setup
 
-Configure the Spring project.
+Q. How to setup the Spring Project?
+
+1. Go to the website (`https://spring.io/guides/gs/spring-boot/`) and download a zip folder from Building an Application with Spring Boot.
+2. Unzip the folder.
+3. Specify the src folder (mark the directory). Then mark the pom file. This will fix the Spring Annotation errors.
+4. Get into the correct directory and run `./mvnw install`.
 
 
 ## Contents
