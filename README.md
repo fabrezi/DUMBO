@@ -18,17 +18,39 @@ More than anything DUMBO is a test app, ready to take a request and perform an e
 The purpose of this exercise is primarily to test the functionality of the backend and frontend. The exercise will expand as the levels are completed. The final look or feel of the API is to be 
 a service based app. It will perform the required task as the user specify. 
 
-The tech stack will be: Spring, Hibernate, PG, and AngularJS.
+The front -- middle -- backend process will be followed. 
+
+front: the UI display. the user can send in the request
+
+
+
 
 The following are the open task:
 
 [1] Create a GET HTTP method which sends back a funny response.
+
 [2] Send a message and save it in the database.
-[3] Generate Hexadecimal code/ UUID.
+
+[3] Generate UUID.
+
+
+------------------------------
+------------------------------
+
+There is further development. We will serve `DUMBO` as to be the Spring basic project. The simplest exercise to perform is a 
+fully operational CRUD functionality in Spring framework. This will require:
+
+- Set up the Spring project. It will be called `DUMBO-api`.
+- Create a local database interface. 
+- Setup an ORM functionality.
+- Connect the api with the db through the ORM feature.
+- Create the controller, service, repository etc.
+- Check the pom file.
+- Test the HTTP methods (GET,POST,DELETE).
 
 # Setup
 
-- Configure the Spring framework.
+Configure the Spring project.
 
 
 ## Contents
