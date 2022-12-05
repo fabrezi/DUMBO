@@ -56,7 +56,8 @@ Q. How to setup the Spring Project?
 2. Unzip the folder.
 3. Specify the src folder (mark the directory). Then mark the pom file. This will fix the Spring Annotation errors.
 4. Get into the correct directory and run `./mvnw install`.
-
+5. Run the server: `./mvnw spring-boot:run`
+6. Do curl command on the specified port. Output be displayed.
 
 ## Contents
 
