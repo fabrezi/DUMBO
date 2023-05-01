@@ -9,6 +9,6 @@ public class holla {
 
     @GetMapping("/")
     public String index(){
-        return "Holla You Bastard!!";
+        return "m||m (thats a middle finger).";
     }
 }
