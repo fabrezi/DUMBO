@@ -69,6 +69,12 @@ Q. How to setup the Spring Project?
  - Bussiness Logic []
  - Infrastructure Operations []
 
+## Report-Notes
+
+- (01/05/2023) - I pull the master branch. but the src folder is not found
+                 in the IntelliJ. It exists in the folder. how to retrieve it?
+                 
+
 ## Links
 
 
