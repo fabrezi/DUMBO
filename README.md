@@ -9,31 +9,44 @@ Contents:
 
 # Documentation
 
-DUMBO is primarily designed to tackle the problem of `user-desired-task`. This is much different then a `user-defined-task`. one difference is that the former is dynamic while the other is static. 
+DUMBO is primarily designed to tackle the problem of `user-desired-task`. 
+This is much different then a `user-defined-task`. one difference is that the former is dynamic 
+while the other is static. 
 
-We want to design an API that can dynamically solve an issue of arbitrary complexity and wide range of issues. These can range from communication channels, send a picture, make a joke, write an excuse etc. DUMBO is basically a servant ready to serve the user --master. The old fashioned master-slave architecture can be applied. Though the nomencalture of `user-deisred-task` is new but the idea is old as time.
+We want to design an API that can dynamically solve an issue of arbitrary complexity and 
+wide range of issues. These can range from communication channels, send a picture, make a joke, 
+write an excuse etc. DUMBO is basically a servant ready to serve the user --master. 
+The old fashioned master-slave architecture can be applied. 
+Though the nomencalture of `user-deisred-task` is new but the idea is old as time.
 
 More than anything DUMBO is a test app, ready to take a request and perform an event. 
 
-The purpose of this exercise is primarily to test the functionality of the backend and frontend. The exercise will expand as the levels are completed. The final look or feel of the API is to be 
-a service based app. It will perform the required task as the user specify. 
+The purpose of this exercise is primarily to test the functionality of the backend and frontend. 
+The exercise will expand as the levels are completed. The final look or feel of the API is to be 
+a service based app. It will perform the required task as the user specify.
 
-The front -- middle -- backend process will be followed. 
+API (Application Programming Interface) is a software that accepts a user request and provides a 
+response accordingly. For instance: To search or read an ID from a table. It can be designed to handle
+complicated request and business logic. The standard architecture of an API consist simply of DB. Third
+component can be a container (though seems an overkill) but it is considered extra. (an open question).
 
-front: the UI display. the user can send in the request
+Any standard API has the following parts:
 
-
+1. CRUD: the first challenge of an API is to perform data management. In this context it will be to add,
+   read or delete data. 
+2. Auth: certain data is considered private. It can be a set of sophisticated data, such as: government
+   docs. A task can be to require authentication before a deleted operation.
+3. Association: when multiple tables are present, a relation or association is required. this can be 
+   advancement on the data manipulation theme.
 
 
 The following are the open task:
 
-[x] Hello World in Spring framework.
+[] Hello World in Spring framework.
 
 [] Create a GET HTTP method which sends back a funny response.
 
-[] Send a message and save it in the database.
-
-[] Generate UUID.
+[] Send a message and take a response accordingly.
 
 
 ------------------------------
@@ -73,7 +86,10 @@ Q. How to setup the Spring Project?
 
 - (01/05/2023) - I pull the master branch. but the src folder is not found
                  in the IntelliJ. It exists in the folder. how to retrieve it?
-                 
+                 the solution is to delete the `.idea` folder. 
+- (01/05/2023) - the command `./mvnw` does not run. the `java-home` is not
+                 found. though the java compiler works in the cmd test. currently
+                 not sure?
 
 ## Links
 
